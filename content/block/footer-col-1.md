@@ -1,3 +1,3 @@
-#### Footer col 1
+#### oophp
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Sidan är skapad för att innehålla bl.a. redovisningstexter för köursen oophp.

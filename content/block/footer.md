@@ -1,1 +1,1 @@
-Copyright år och ditt namn samt diverse länkar som du finner relevanta.
+Fredrik Ahnell (frah19) för kursen oophp våren 2020.

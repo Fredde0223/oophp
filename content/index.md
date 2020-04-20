@@ -6,22 +6,14 @@ Min me-sida i kursen oophp
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=400&a=4,27,11,0&cf&sharpen" class="right" caption="Bild på mig, ätandes glass och hållandes ett kort på någon jultillställning."]
+[FIGURE src="image/9c5koxrqi3k41.jpg" class="right" caption="En kul bild att titta på. (:"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Hej, jag heter Fredrik och är 28 år. Jag är född och uppvuxen i Hässleholm i Skåne, men flyttade för sex år sedan till Umeå. Jag bor för tillfället i Holmsund utanför Umeå med min sambo Malin.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Det är ju så klart ganska länge sedan jag tog studenten nu, men har inte blivit fördig att läsa något program på universitet eller högskola innan, då jag bland annat läst strökurser och arbetat. Ser dock väldigt mycket fram emot dessa två åren på BTH och hoppas att jag kommer lära mig mycket.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Jag har alltid varit intesserad av datorer, men framför allt av att spela olika datorspel. Jag försöker dock aktivera mig till och från med exempelvis löpning eller andra fysiska aktiviteter.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Som jag tidigare skrev är jag uppvuxen i Hässleholm. Efter grundskolan valde jag att läsa natur på gymnasiet, och det var där jag träffade min nuvarande sambo, som idag är sjuksköterska.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching, sedan turfing och nu på sistone verkar släktforskning lite spännande. Annars kan jag alltid koda på något av mina opensource-projekt, det finns och blir över.
-
-Vill du läsa mer om vad jag jobbat med så kan du kika på min [Linkedin-profil](https://www.linkedin.com/in/pt90mr/).
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Ett annat stort intresse är sport. Är på grund av min sambo ett stort Hammarby-fan, och tillsammans tittar vi på alla matcher vi kan. Andra sporter jag är intresserad av är snooker och golf. Följer snooker-säsongen slaviskt på Eurosport, men endast de större golftävlingarna. Inom snookern är det så klart Ronnie O'Sullivan som gäller och har sedan barnsben varit ett stort fan av Tiger Woods m.fl.
