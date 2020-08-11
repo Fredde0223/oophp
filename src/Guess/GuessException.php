@@ -2,6 +2,8 @@
 
 namespace Fredde\Guess;
 
+use \Exception as Exception;
+
 /**
  * Exception class for PersonAgeException.
  */

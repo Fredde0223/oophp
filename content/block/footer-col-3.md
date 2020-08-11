@@ -1,3 +1,3 @@
 #### oophp
 
-Sidan är skapad för att innehålla bl.a. redovisningstexter för köursen oophp.
+Sidan är skapad för att innehålla bl.a. redovisningstexter för kursen oophp.
