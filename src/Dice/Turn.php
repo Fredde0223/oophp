@@ -6,8 +6,10 @@ class Turn
 {
     /**
      * @var int $value   Value of current turn
+     * @var array $serie Series of rolls
      */
     private $value;
+    private $serie = [];
 
     /**
      * Constructor to initiate the object with current game settings,
@@ -28,6 +30,7 @@ class Turn
     {
         $hand = new Hand();
         $hand->handRoll();
+        $this->serie = array_merge($this->serie, $hand->handSerie());
 
         if ($hand->handValue() == 0) {
             $this->value = 0;
@@ -54,5 +57,15 @@ class Turn
     public function turnValue()
     {
         return $this->value;
+    }
+
+    /**
+     * Retrun serie.
+     *
+     * @return array Hand serie.
+     */
+    public function turnSerie()
+    {
+        return $this->serie;
     }
 }

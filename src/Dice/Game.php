@@ -2,11 +2,17 @@
 
 namespace Fredde\Dice;
 
-class Game
+class Game implements HistogramInterface
 {
+    use HistogramTrait;
+
+
+
     /**
-     * @var int $score      player's score
-     * @var int $compScore  computer score
+     * @var int $turnScore
+     * @var int $score
+     * @var int $compTurnScore
+     * @var int $compScore
      */
     private $turnScore;
     private $score;
@@ -34,6 +40,7 @@ class Game
     {
         $turn = new Turn();
         $turn->turnRoll();
+        $this->serie = array_merge($this->serie, $turn->turnSerie());
 
         if ($turn->turnValue() == 0) {
             $this->turnScore = 0;
@@ -82,11 +89,21 @@ class Game
             if ($compTurn->turnValue() == 0) {
                 $this->compTurnScore = 0;
                 break;
+            } elseif ($compTurn->turnValue() > 14) {
+                $this->compTurnScore += $compTurn->turnValue();
+                break;
+            } elseif ($this->compScore + $compTurn->turnValue() >= 100) {
+                $this->compTurnScore += $compTurn->turnValue();
+                break;
+            } elseif ($this->compScore > $this->score) {
+                $this->compTurnScore += $compTurn->turnValue();
+                break;
             } else {
                 $this->compTurnScore += $compTurn->turnValue();
                 $compTurn->turnReset();
             }
         }
+        $this->serie = array_merge($this->serie, $compTurn->turnSerie());
         $this->compScore += $this->compTurnScore;
         $this->compTurnScore = 0;
     }

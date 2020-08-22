@@ -7,9 +7,11 @@ class Hand
     /**
      * @var int $number  Number of dices.
      * @var int $value   Value of rolled dices
+     * @var array $serie Series of dice values
      */
     private $number;
     private $value;
+    private $serie = [];
 
     /**
      * Constructor to initiate the object with current game settings,
@@ -33,12 +35,15 @@ class Hand
 
         for ($i = 0; $i < $this->number; $i++) {
             $dice->diceRoll();
+            $this->serie[] = $dice->diceValue();
+        }
 
-            if ($dice->diceValue() == 1) {
+        for ($i = 0; $i < $this->number; $i++) {
+            if ($this->serie[$i] == 1) {
                 $this->value = 0;
                 break;
             } else {
-                $this->value += $dice->diceValue();
+                $this->value += $this->serie[$i];
             }
         }
     }
@@ -51,5 +56,15 @@ class Hand
     public function handValue()
     {
         return $this->value;
+    }
+
+    /**
+     * Retrun serie.
+     *
+     * @return array returns serie.
+     */
+    public function handSerie()
+    {
+        return $this->serie;
     }
 }
